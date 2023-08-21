@@ -1,0 +1,42 @@
+.canvasContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5%;
+  width: 90%;
+  height: 70vh;
+  position: relative;
+}
+
+.canvas {
+  border: 10px solid transparent;
+  border-image: linear-gradient(45deg, #ff6b6b, #01babc);
+  border-image-slice: 1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background-color: aliceblue;
+  width: 100%;
+  height: 100%;
+}
+.controls {
+  width: 90%;
+  margin: 1% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.colorPicker {
+  width: 25%;
+  height: 40px; 
+  padding: 5px;
+  border: 1px solid #ff6b6b;
+  border-radius: 4px;
+}
+
+.rangeSlider {
+  width: 75%;
+  height: 40px; 
+}
+
+
